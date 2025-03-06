@@ -27,8 +27,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          editUrl:
-            'https://github.com/bjkawecki/open-ru-grammar/blog/',
+          editUrl: 'https://github.com/bjkawecki/open-ru-grammar/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -46,41 +45,38 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           alt: 'Bajkal Logo',
           src: 'img/logo.svg',
         },
-        items: [
-          {
+        items: [{
             type: 'doc',
-            docId: 'start/index',
+            docId: 'einleitung/index',
             position: 'left',
             label: 'Grammatik',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {
+            to: '/blog',
+            label: 'Blog',
+            position: 'left'
+          },
         ],
       },
       footer: {
         style: 'dark',
-        links: [
-          {
+        links: [{
             title: 'Docs',
-            items: [
-              {
-                label: 'Grammatik',
-                to: '/docs/start/index',
-              },
-            ],
+            items: [{
+              label: 'Grammatik',
+              to: '/docs/einleitung/index',
+            }, ],
           },
           {
             title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-            ],
+            items: [{
+              label: 'Stack Overflow',
+              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+            }, ],
           },
           {
             title: 'More',
-            items: [
-              {
+            items: [{
                 label: 'Blog',
                 to: '/blog',
               },
