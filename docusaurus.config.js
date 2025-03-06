@@ -28,7 +28,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/main/website/blog/',
+            'https://github.com/bjkawecki/open-ru-grammar/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -49,16 +49,11 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         items: [
           {
             type: 'doc',
-            docId: 'Erste Schritte/einfuehrung',
+            docId: 'start/index',
             position: 'left',
             label: 'Grammatik',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
-          },
         ],
       },
       footer: {
@@ -69,7 +64,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             items: [
               {
                 label: 'Grammatik',
-                to: '/docs/Erste Schritte/einfuehrung',
+                to: '/docs/start/index',
               },
             ],
           },
@@ -79,14 +74,6 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
               {
                 label: 'Stack Overflow',
                 href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
               },
             ],
           },
@@ -99,12 +86,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/bjkawecki/open-ru-grammar',
               },
             ],
           },
         ],
-        copyright: `© ${new Date().getFullYear()} Bajkal App, gebaut mit Docusaurus.`,
+        copyright: `© ${new Date().getFullYear()} Bajkal App – Grammatik, erstellt mit Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
