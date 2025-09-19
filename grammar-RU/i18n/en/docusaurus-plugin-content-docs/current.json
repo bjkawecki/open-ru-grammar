@@ -1,0 +1,18 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.docsSidebar.category.Hinweise": {
+    "message": "Hinweise",
+    "description": "The label for category Hinweise in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.Erste Schritte": {
+    "message": "Erste Schritte",
+    "description": "The label for category Erste Schritte in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.Wortarten": {
+    "message": "Wortarten",
+    "description": "The label for category Wortarten in sidebar docsSidebar"
+  }
+}
